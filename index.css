@@ -1,0 +1,96 @@
+:root {
+  --white: #f2f2f2;
+  --pink: #f22283;
+  --pink-300: #f22973;
+  --purple: #9163f2;
+  --blue: rgb(59, 89, 152);
+
+  --cian: #5b9ed9;
+}
+
+body {
+  background-image: linear-gradient(90deg, #7377ec, #f10afe);
+}
+
+.container {
+  width: auto;
+  margin: auto;
+  padding: 10px;
+}
+
+.conteudos {
+  border: 2px solid var(--purple);
+}
+
+.abas {
+  display: flex;
+}
+
+button {
+  background-image: linear-gradient(90deg, var(--blue), var(--cian));
+  border: 2px solid #1c1be6;
+  color: var(--white);
+  cursor: pointer;
+  flex-grow: 1;
+  font-size: 1.25rem;
+  font-weight: bold;
+  outline: none;
+  padding: 10px;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background-image: linear-gradient(90deg, var(--cian), var(--blue));
+}
+.conteudos {
+  border: 2px solid var(--blue);
+  min-height: 300px;
+  padding: 20px;
+}
+
+.form {
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  margin: auto;
+}
+
+.-dados {
+  background-color: var(--cian);
+}
+
+.-cadastro {
+  background-color: var(--purple);
+}
+
+.form input {
+  padding: 10px;
+  border: 2px solid var(--blue);
+  height: 1.8rem;
+}
+
+.btnForm {
+  padding: 10px;
+  background: var(--blue);
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 1s linear;
+}
+
+.btnForm:hover {
+  background: #1c1be6;
+}
+
+.ativa {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
